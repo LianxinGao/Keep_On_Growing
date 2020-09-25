@@ -10,6 +10,6 @@ Elasticsearch把操作封装为HTTP的API
     
 5. keyword类型 直接建立反向索引；text类型 先分词后建立反向索引。
 - - -
-分布式原理
+分布式原理https://zhuanlan.zhihu.com/p/62892586
 1. 会对数据进行切分，每个分片保存多个副本，保证分布式环境下高可用。
 2. master-slaver架构，master负责集群状态信息的改变，并同步给其他节点。
